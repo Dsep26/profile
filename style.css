@@ -33,6 +33,7 @@ li {
 .title {
   color: rgb(8, 8, 8);
   font-size: 18px;
+  font-weight: bold;
 }
 
 button {
