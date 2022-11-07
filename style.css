@@ -3,6 +3,8 @@
 
 body {
   background-color: black;
+  background-image: url(./images/black-wallpaper-19.jpg);
+  background-size: cover;
 }
 li {
   list-style: none;
@@ -17,8 +19,9 @@ p{
 }
 .card-photo {
   border-radius: 50%;
-  width: 90px;
+  /* width: 90px; */
   height: 250px;
+  margin-top: 7px;
   margin-bottom: 9px;
 }
 .card {
@@ -29,7 +32,7 @@ p{
   max-width: 300px;
   margin-left: 18px;
   text-align: center;
-  background-color: #ffebcd54;
+  background-color: #ffebcd29;
   border-radius: 10px;
   border-top-left-radius: 26%;
   border-top-right-radius: 26%;
@@ -70,7 +73,7 @@ button:hover, a:hover {
   width: 50%;
   margin-left: 386px;
   border-radius: 10px;
-  background-color: #ffebcd82;
+  background-color: #ffebcd29;
 }
 .bio-title {
   padding-left: 50px;
@@ -92,7 +95,7 @@ button:hover, a:hover {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0 0 0 0;
-  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.384);
   z-index: -1;
   transition: transform .3s ease;
 }
@@ -106,12 +109,12 @@ button:hover, a:hover {
 }
 
 .hobby-card {
-  width: 21%;
+  width: 23%;
   margin-left: 385px;
   margin-top: 360px;
   position: absolute;
   border-top-left-radius: 76px;
-  background-color: rgba(255, 235, 205, 0.466);
+  background-color: #ffebcd29;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -127,21 +130,24 @@ button:hover, a:hover {
   padding-left: 8px;
 }
 .hobby-cards {
-  width: 21%;
-  margin-left: 695px;
+  width: 23%;
+  margin-left: 748px;
   margin-top: 360px;
   position: absolute;
   border-top-left-radius: 76px;
-  background-color: rgba(255, 235, 205, 0.466);
+  background-color: #ffebcd29;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  height: 231px;
+  height: 213px;
 }
 .card-content {
   background-color: whitesmoke;
   width: 48vh;
   height: 41vh;
   margin-left: 2px;
+  top: 0;
+  position: static;
+  border-top-left-radius: 60px;
 
 }
 .line-bottom {
@@ -154,9 +160,9 @@ button:hover, a:hover {
 }
 .line-bottom-right {
   background-color: whitesmoke;
-  height: 3vh;
-  width: 33vh;
-  margin-left: 1136px;
-  margin-top: 355px;
+  height: 30vh;
+  width: 3vh;
+  margin-left: 1335px;
+  margin-top: -217px;
   border-top-left-radius: 17px;
 }
